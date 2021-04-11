@@ -1,0 +1,24 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "a blockchain based on node.js",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  }
+}
